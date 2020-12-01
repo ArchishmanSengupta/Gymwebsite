@@ -1,0 +1,272 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  box-sizing: border-box;
+  background: url(https://images.pexels.com/photos/1552249/pexels-photo-1552249.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500);
+  height: 500px;
+  color: rgb(255, 255, 255);
+  font-family: "Baloo Bhaina 2", cursive;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+/* Starting of the navbar */
+.header {
+  background: rgba(0, 0, 0);
+  background-repeat: no-repeat;
+  background-position: default;
+  background-size: cover;
+  display: flex;
+  /* margin-top: 10px; */
+  margin-bottom: 90px;
+  position: sticky;
+  top: 0;
+  padding: 5px;
+  }
+/* logo  */
+.left {
+  /* background-color: rgb(0, 0, 0); */
+  width: 10%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+img {
+  width: 40%;
+  filter: invert(1);
+}
+/* Main options for navbar */
+.mid {
+  /* background-color: rgb(0, 0, 0); */
+  width: 70%;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+.navbar {
+  display: flex;
+  list-style: none;
+}
+li {
+  margin: auto 40px;
+  text-align: center;
+}
+a {
+  font-size: 17px;
+  text-decoration: none;
+  color: white;
+}
+a:hover {
+  color: gray;
+  text-decoration: underline;
+  transition: 0.5s;
+}
+/* Sign up and login */
+.right {
+  /* background-color: rgba(0, 0, 0); */
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+.button {
+  margin: auto;
+  width: 35%;
+  height: 40px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.redh:hover {
+  background-color: rgb(255, 0, 0);
+  transition: 1s;
+  color: white;
+}
+.blueh:hover {
+  background-color: rgb(0, 0, 255);
+  transition: 1s;
+  color: white;
+}
+
+/* Main body starts from here  */
+.container {
+  display: flex;
+  margin: 0 10%;
+  margin-bottom: 100px;
+}
+/* form of the website  */
+h2 {
+  text-align: center;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  font-size: xx-large;
+  font-family: cursive;
+  color: cyan;
+  margin-top: 20px;
+}
+form {
+  border: 5px double #ffffff40;
+  border-radius: 20px;
+  width: 50%;
+  box-sizing: border-box;
+}
+.form {
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  margin: 15px 0px;
+}
+input[type="text"] {
+  border: groove 2px #ffffffcc;
+  width: 70%;
+  height: 40px;
+  box-sizing: border-box;
+  text-align: center;
+  margin: 10px;
+  padding: 2px;
+  border-radius: 32px;
+  font-size: unset;
+  font-family: cursive;
+  color: white;
+  background-color: rgba(255, 255, 255, 0);
+}
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  margin-bottom: 40px;
+}
+button.button2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  width: 27%;
+  height: 33px;
+  font-size: 18px;
+  font-family: cursive;
+  cursor: pointer;
+  border-radius: 5px;
+  border: 1px solid white;
+  color: white;
+}
+button.button2:hover {
+  background-color: rgb(0, 255, 0);
+  transition: 1.5s;
+  color: black;
+}
+.red {
+  background-color: rgb(255, 0, 0);
+  transition: 1s;
+}
+.blue {
+  background-color: rgb(0, 0, 255);
+  transition: 1s;
+}
+/* Quotation of the website  */
+.quote {
+  width: 50%;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: 'Big Shoulders Stencil Text', cursive;
+  padding: 50px;
+  font-size: xx-large;
+}
+
+.burger {
+  display: none;
+  border: solid;
+  border-radius: 5px;
+  margin: 8px auto;
+  cursor: pointer;
+}
+.line {
+  width: 33px;
+  background-color: white;
+  height: 4px;
+  margin: 4px 3px;
+}
+/* At 1050px & 275px responsiveness goes from here we have to make the hamburger menu */
+
+
+@media only screen and (max-width: 1194px) {
+  .header {
+    flex-direction: column;
+    margin: auto;
+    height: 436px;
+    transition: all 0.5s ease-out;
+  }
+  .left {
+    flex-direction: column;
+    margin: auto;
+    width: 40%;
+  }
+  .mid {
+    flex-direction: column;
+    margin: auto;
+  }
+  .navbar {
+    flex-direction: column;
+  }
+  .right {
+    flex-direction: column;
+    margin: auto;
+  }
+  .button {
+    width: 100%;
+    margin: 5px auto;
+    height: 28px;
+  }
+  .container {
+    flex-direction: column;
+    margin: 1%;
+  }
+  .form {
+    flex-direction: column;
+  }
+  form {
+    width: 100%;
+  }
+  .quote {
+    width: 100%;
+    flex-direction: column;
+    font-size: large;
+  }
+  input[type="text"] {
+    width: 90%;
+  }
+  button.button2 {
+    width: 50%;
+  }
+
+  /* very important part  */
+  .burger {
+    display: block;
+    position: absolute;
+    top: 0%;
+    left: 2%;
+  }
+  .navheight {
+    height: 39px;
+    background: black;
+    transition: all 0.5s ease-out;
+  }
+  .visibility {
+    opacity: 0;
+  }
+}
