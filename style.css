@@ -8,7 +8,7 @@ body {
   background: url(https://images.pexels.com/photos/1552249/pexels-photo-1552249.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500);
   height: 500px;
   color: rgb(255, 255, 255);
-  font-family: "Baloo Bhaina 2", cursive;
+  font-family: Product Sans Light;
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: center center;
@@ -83,6 +83,7 @@ a:hover {
   height: 40px;
   border-radius: 8px;
   cursor: pointer;
+  font-family: Product Sans Ligh;
 }
 .redh:hover {
   background-color: rgb(255, 0, 0);
@@ -108,7 +109,7 @@ h2 {
   align-content: center;
   justify-content: center;
   font-size: xx-large;
-  font-family: cursive;
+  font-family: Product Sans Light;
   color: cyan;
   margin-top: 20px;
 }
@@ -136,7 +137,7 @@ input[type="text"] {
   padding: 2px;
   border-radius: 32px;
   font-size: unset;
-  font-family: cursive;
+  font-family: Product Sans Light;
   color: white;
   background-color: rgba(255, 255, 255, 0);
 }
@@ -155,7 +156,7 @@ button.button2 {
   width: 27%;
   height: 33px;
   font-size: 18px;
-  font-family: cursive;
+  font-family: Product Sans Light;
   cursor: pointer;
   border-radius: 5px;
   border: 1px solid white;
