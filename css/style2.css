@@ -1,0 +1,231 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  /* background: linear-gradient(-45deg, black,rgb(87, 87, 87),rgb(63, 63, 63),rgb(37, 37, 37),black); */
+  background-size: 400% 400%;
+  animation: gradient 10s ease-in infinite;
+}
+
+body {
+  background-color: black;
+  font-family: Product Sans Light;
+  color: white;
+  background: linear-gradient(
+    90deg,
+    #ffffff -21.36%,
+    red -300.45%,
+    #000000 26.84%,
+    #000000 70.15%,
+    red 150.29%,
+    #ffffff 159.03%
+  );
+  background-size: 400% 400%;
+  background-size: 400% 400%;
+  animation: gradient 5s ease-out infinite;
+}
+/* box 2 class is foe gardient border */
+.box-2 {
+  border: 3px solid;
+  border-image-source: linear-gradient(
+    45deg,
+    rgb(0, 143, 104),
+    rgb(250, 224, 66)
+  );
+  border-image-slice: 1;
+  border-image: linear-gradient(
+      270.97deg,
+      #ff0000 -21.36%,
+      #0044ff -2.45%,
+      #ff0090 26.84%,
+      #ff006a 64.15%,
+      #00f5e5 108.29%,
+      #00ff0f 159.03%
+    )
+    1;
+  transition: 0.1s;
+}
+h1 {
+  margin: 50px;
+  padding: 10px;
+  font-size: 158px;
+  /* background: linear-gradient( 270.97deg, #ff0000 -21.36%, #0044ff -2.45%, #ff0090 26.84%, #ff006a 64.15%, #00f5e5 108.29%, #00ff0f 159.03% ); */
+  color: white;
+  /* background-size: 400% 400%; */
+  /* animation: gradient 1s ease-out infinite; */
+  /* -webkit-background-clip: text; */
+  /* -webkit-text-fill-color: transparent; */
+  transition: 0.5s;
+}
+h2 {
+  margin: 50px;
+  padding: 10px;
+  font-size: 130px;
+  background: linear-gradient(
+    270.97deg,
+    #ff0000 -21.36%,
+    #0044ff -2.45%,
+    #ff0090 26.84%,
+    #ff006a 64.15%,
+    #00f5e5 108.29%,
+    #00ff0f 159.03%
+  );
+  background-size: 400% 400%;
+  animation: gradient 5s ease-out infinite;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: right;
+}
+h3 {
+  margin: 50px;
+  padding: 10px;
+  font-size: 100px;
+  background: linear-gradient(
+    270.97deg,
+    #ff0000 -21.36%,
+    #0044ff -2.45%,
+    #ff0090 26.84%,
+    #ff006a 64.15%,
+    #00f5e5 108.29%,
+    #00ff0f 159.03%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+h1:hover {
+  background: linear-gradient(
+    270.97deg,
+    #ff0000 -21.36%,
+    #0044ff -2.45%,
+    #f36eb9 26.84%,
+    #ff006a 64.15%,
+    #00f5e5 108.29%,
+    #00ff0f 159.03%
+  );
+  background-size: 400% 400%;
+  animation: gradient 10s ease-out infinite;
+  color: black;
+  border: 3px solid transparent;
+  transition: 0.1s;
+}
+
+button {
+  margin: auto;
+  display: block;
+  width: fit-content;
+  margin: 25px auto;
+  border: 5px solid;
+  background: #ffffff61;
+  font-family: Product Sans Light;
+  font-size: 37px;
+  color: white;
+  width: 50%;
+  height: 79px;
+  /* border-radius: 52px; */
+  border-image: linear-gradient(red, white, blue) 1;
+
+  /* border-radius: 40px; */
+  cursor: pointer;
+}
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@media only screen and (max-width: 1320px) {
+  h1 {
+    font-size: 80px;
+  }
+  h2 {
+    font-size: 70px;
+  }
+  h3 {
+    font-size: 60px;
+  }
+  button {
+    background: #00000070;
+  }
+}
+@media only screen and (max-width: 668px) {
+  h1 {
+    font-size: 80px;
+  }
+  h2 {
+    font-size: 70px;
+    text-align: center;
+  }
+  h3 {
+    font-size: 60px;
+    text-align: center;
+  }
+  button {
+    background: #00000070;
+  }
+}
+@media only screen and (max-width: 510px) {
+  h1 {
+    margin: 10px;
+  }
+  h2 {
+    margin: 8px;
+    margin-bottom: 30px;
+  }
+  h3 {
+    margin: 0;
+  }
+  button {
+    width: 90%;
+  }
+}
+@media only screen and (max-width: 300px) {
+  h1 {
+    font-size: 50px;
+  }
+  h2 {
+    font-size: 40px;
+  }
+  h3 {
+    font-size: 30px;
+  }
+  button {
+    font-size: 30px;
+  }
+}
+@media only screen and (max-width: 226px) {
+  body {
+    background-color: black;
+    background: linear-gradient(
+      90deg,
+      #ffffff -21.36%,
+      red -300.45%,
+      #000000 26.84%,
+      #000000 70.15%,
+      red 150.29%,
+      #ffffff 159.03%
+    );
+  }
+  h1 {
+    font-size: 40px;
+  }
+  h2 {
+    font-size: 30px;
+  }
+  h3 {
+    font-size: 20px;
+  }
+  button {
+    font-size: 20px;
+  }
+}
+@media only screen and (max-width: 170px) {
+  body {
+    display: none;
+  }
+}
