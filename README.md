@@ -17,4 +17,3 @@ $git pull -u origin master
 ```
 ## Some image of the website
 ![alt text](https://github.com/Abirpal202049/Gymwebsite/blob/master/Gym_desktopview.png)
-![alt text](https://github.com/Abirpal202049/Gymwebsite/blob/master/Gym_mobileview.png)
