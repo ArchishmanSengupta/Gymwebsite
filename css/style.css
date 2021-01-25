@@ -64,7 +64,7 @@ a {
   color: white;
 }
 a:hover {
-  color: gray;
+  color: rgb(252, 250, 250);
   text-decoration: underline;
   transition: 0.5s;
 }
@@ -117,10 +117,12 @@ h2 {
   background: none;
 }
 form {
-  border: 5px double #ffffff40;
+  border: 5px double #f7f5f5c5;
   border-radius: 20px;
   width: 50%;
   box-sizing: border-box;
+  box-shadow: inset 0 0 200px rgba(255, 255, 255, .5);
+  filter: blur(0.25px); 
 }
 .form {
   width: auto;
@@ -131,7 +133,7 @@ form {
   margin: 15px 0px;
 }
 input[type="text"] {
-  border: groove 2px #ffffffcc;
+  border: groove 2px #ffffff;
   width: 70%;
   height: 40px;
   box-sizing: border-box;
