@@ -124,6 +124,7 @@ button {
   height: 79px;
   /* border-radius: 52px; */
   border-image: linear-gradient(red, white, blue) 1;
+  display: flex;
 
   /* border-radius: 40px; */
   cursor: pointer;
